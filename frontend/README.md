@@ -1,8 +1,14 @@
-# React + Vite
+# 🌟 **SpeakEasy - Frontend** 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend of **SpeakEasy** is built with React.js, providing a modern, interactive user interface for converting text to speech.
 
-Currently, two official plugins are available:
+## 🚀 **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Interface**: Responsive and intuitive UI with React Icons.
+- **Text Input**: Easy text entry and conversion to speech.
+- **Voice Selection**: Choose from various voices and languages.
+
+## 💻 **Technologies Used**
+
+- **React.js**: For building a dynamic user interface.
+- **React Icons**: For stylish and modern icons.
