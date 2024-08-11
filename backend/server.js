@@ -1,6 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
+require('dotenv').config();
 
 const app = express();
 
@@ -11,7 +12,7 @@ app.use(cors({
 
 app.post('/convert', async (req, res) => {
     const text = req.body.text;
-    const apiKey = "AIzaSyCAytoR-oa93_sASIiEcrp46qcZwKMozhg"; 
+    const apiKey = process.env.GOOGLE_CLOUD_API;
     const endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`;
     const payload = {
         "audioConfig": {
